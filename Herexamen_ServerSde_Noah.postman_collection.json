@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "a8429fa7-2d5c-4a70-a16d-3aeac0529538",
+		"name": "Herexamen_ServerSde_Noah",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23955877",
+		"_collection_link": "https://team-yuna.postman.co/workspace/541476f1-9899-4a79-936d-6325bbc75b0a/collection/23955877-a8429fa7-2d5c-4a70-a16d-3aeac0529538?action=share&source=collection_link&creator=23955877"
+	},
+	"item": [
+		{
+			"name": "Get all reviews for a book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/books/{bookId}/reviews",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books",
+						"{bookId}",
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get details of a specific review for a book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/books/{bookId}/reviews/{reviewId}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books",
+						"{bookId}",
+						"reviews",
+						"{reviewId}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/books",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get details of a specific book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/books/{id}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get authors for a book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/books/{id}/authors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books",
+						"{id}",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
