@@ -34,5 +34,8 @@ public class Book {
     @Column
     private Integer nrStars;
 
+    @OneToMany
+    private List<BookUserReview> reviews;
+
 }
 

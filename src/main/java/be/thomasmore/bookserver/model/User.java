@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @SuppressWarnings("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "BOOKSUSER")
@@ -19,4 +21,7 @@ public class User {
     String username;
     String password;
     String role;
+
+    @OneToMany
+    private List<BookUserReview> reviews;
 }
