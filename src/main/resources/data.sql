@@ -60,6 +60,10 @@ values (6, 5);
 insert into book_authors (BOOKS_ID, AUTHORS_ID)
 values (6, 6);
 
+
+
+
+
 insert
 into genre
 (NAME)
@@ -86,3 +90,14 @@ VALUES ('vera',
         '$2y$12$KF3spKP4kgf59.6zYkmjyeYaW2.4ZxV16Grpw1FPsFnzYq68kswJ6', 'USER'); --vera
 
 
+INSERT INTO book_user_review (date, review, book_id, user_id)
+VALUES ('2024-02-01', 'Triestig Boek', 1, 2);
+
+INSERT INTO book_user_review (date, review, book_id, user_id)
+VALUES ('2024-02-02', 'Leuk boek', 1, 3);
+
+INSERT INTO book_user_review (date, review, book_id, user_id)
+VALUES ('2024-02-03', 'Goed boek voor Peter', 2, 2);
+
+INSERT INTO book_user_review (date, review, book_id, user_id)
+VALUES ('2024-02-04', 'Geen goed boek voor Peter ;).', 3, 1);
