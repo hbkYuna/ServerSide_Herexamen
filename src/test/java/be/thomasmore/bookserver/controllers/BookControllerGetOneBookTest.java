@@ -21,10 +21,10 @@ public class BookControllerGetOneBookTest extends AbstractIntegrationTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.id").value(1))
                 .andExpect(jsonPath("$.title").value("Test Automation"))
+                .andExpect(jsonPath("$.nrStars").value(3)) // Replace with expected nrStars value
                 .andExpect(jsonPath("$.authors").exists())
                 .andExpect(jsonPath("$.authors").isEmpty());
     }
-
     @Test
     public void getOneBookNotFound() throws Exception {
         final MvcResult mvcResult =

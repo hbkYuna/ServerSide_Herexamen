@@ -30,5 +30,9 @@ public class Book {
 
     @ManyToMany(fetch = FetchType.LAZY)
     private List<Author> authors;
+
+    @Column
+    private Integer nrStars;
+
 }
 

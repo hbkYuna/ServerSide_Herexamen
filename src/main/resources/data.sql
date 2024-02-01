@@ -1,20 +1,21 @@
-insert into book (TITLE, DESCRIPTION)
-values ('Oryx and Crake', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.'); /*1*/
 
-insert into book (TITLE, DESCRIPTION)
-values ('The year of the flood', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.');/*2*/
+insert into book (TITLE, DESCRIPTION, NR_STARS)
+values ('Oryx and Crake', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.', 5); /*1*/
 
-insert into book (TITLE, DESCRIPTION)
-values ('MaddAddam', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.');/*3*/
+insert into book (TITLE, DESCRIPTION, NR_STARS)
+values ('The year of the flood', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.', 5);/*2*/
 
-insert into book (TITLE, DESCRIPTION)
-values ('1Q84', 'Set in 1984 in Tokyo, the story concerns an assassin who stumbles upon an alternate world she refers to as 1Q84. There, she becomes embroiled in a conspiracy involving an abusive religious cult.');/*4*/
+insert into book (TITLE, DESCRIPTION, NR_STARS)
+values ('MaddAddam', 'MaddAddam is a serie of 3 dystopian science-fiction novels that deals with extreme genetic engineering.', 4);/*3*/
 
-insert into book (TITLE, DESCRIPTION)
-values ('De opwindvogelkronieken', 'Novel about Toru, a bored young man living a basic life in Tokyo. When Toru’s daily routines are interrupted by increasingly odd and chaotic events, he must undergo a metaphysical journey that tests the limits of free will and corporeality. ');/*5*/
+insert into book (TITLE, DESCRIPTION, NR_STARS)
+values ('1Q84', 'Set in 1984 in Tokyo, the story concerns an assassin who stumbles upon an alternate world she refers to as 1Q84. There, she becomes embroiled in a conspiracy involving an abusive religious cult.', 3);/*4*/
 
-insert into book (TITLE)
-values ('Design Patterns');/*6*/
+insert into book (TITLE, DESCRIPTION, NR_STARS)
+values ('De opwindvogelkronieken', 'Novel about Toru, a bored young man living a basic life in Tokyo. When Toru’s daily routines are interrupted by increasingly odd and chaotic events, he must undergo a metaphysical journey that tests the limits of free will and corporeality. ', 6);/*5*/
+
+insert into book (TITLE, NR_STARS)
+values ('Design Patterns', 5);/*6*/
 
 
 insert into author (NAME, DESCRIPTION, COUNTRY)
